@@ -4,7 +4,7 @@
 
 export default app => {
 	app.get('/', (req, res, next) => {
-		res.send('/mmmmmxxxxxxmmmmmm/');
+		res.end('/00000999pppp/');
 	});
 	// app.use('/v1', v1)
 }

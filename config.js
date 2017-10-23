@@ -6,7 +6,7 @@
 'use strict';
 
 module.exports = {
-    port: 8001,
+    port: 8003,
     url: 'mongodb://localhost:27017/yqy',
     session: {
         name: 'SID',
