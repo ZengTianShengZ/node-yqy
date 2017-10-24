@@ -4,7 +4,9 @@
  * @update: 2017/10/23
  */
 import mongoose from 'mongoose'
-const Schema = new mongoose.Schema
+mongoose.Promise = Promise
+
+const Schema = mongoose.Schema
 
 const userInfoSchema = new Schema({
     openId: String,

@@ -1,10 +1,10 @@
 'use strict';
 
-// import v1 from './v1'
+import v1 from './v1'
 
 export default app => {
-	app.get('/', (req, res, next) => {
-		res.end('/00000999pppp/');
-	});
-	// app.use('/v1', v1)
+    app.use('/v1', v1);
+    app.get('/', function (rq,rs) {
+		rs.send('ssssssss')
+    })
 }
