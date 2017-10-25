@@ -18,7 +18,13 @@ const userInfoSchema = new Schema({
     country: String,
 
 })
-userInfoSchema.index({id: 1})
+//﻿创建索引 openId， 1 在这里代表正向排序， -1 就逆向
+userInfoSchema.index({openId: 1})
+
+userInfoSchema.statics.findOpenId = async function (openId) {
+    const userInfo = await this.findOne({openId: openId})
+    return userInfo
+}
 
 const UserInfo = mongoose.model('UserInfo', userInfoSchema);
 
