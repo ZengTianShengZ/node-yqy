@@ -7,15 +7,15 @@ import db from '../mongodb/db.js';
 
 import UserInfoModel from './userInfo/userInfo'
 
-// const createUser = new UserInfoModel({
-//     openId: '221211212',
-//     nickName: 'zss',
-//     avatarUrl: 'default.jpg',
-//     gender: 1, // 默认男
-//     province: 'dsdsds',
-//     city: 'ch',
-//     country: 'zzzz',
-// });
+const createUser = new UserInfoModel({
+    openId: '221211212',
+    nickName: 'zss',
+    avatarUrl: 'default.jpg',
+    gender: 1, // 默认男
+    province: 'dsdsds',
+    city: 'ch',
+    country: 'zzzz',
+});
 // createUser.save(function (err,r) {
 //     console.log('.....')
 //     console.log(err)

@@ -4,8 +4,14 @@ import config from './config';
 import router from './routes/index.js';
 import winston from 'winston';
 import expressWinston from 'express-winston';
+import bodyParser from 'body-parser';
 
 const app = express();
+
+// parse application/x-www-form-urlencoded
+app.use(bodyParser.urlencoded({ extended: false }))//extended为false表示使用querystring来解析数据，这是URL-encoded解析器
+// parse application/json
+app.use(bodyParser.json())//添加json解析器
 
 app.all('*', (req, res, next) => {
 	res.header("Access-Control-Allow-Origin", req.headers.origin || '*');

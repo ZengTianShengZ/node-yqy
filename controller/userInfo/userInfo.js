@@ -5,43 +5,70 @@
  */
 import BaseComponent from '../../prototype/baseComponent'
 import UserInfoModel from '../../models/userInfo/userInfo'
+import config from '../../config'
 
-class UserInfo extends BaseComponent{
-    constructor(){
+class UserInfo extends BaseComponent {
+    constructor() {
         super()
+        this.login = this.login.bind(this)
     }
-    async login(req, res, next){
-        const createUser = new UserInfoModel(userInfo);
-        const userinfo = await createUser.save();
-        // req.session.user_id = user_id;
-        res.send({
-            "data": {
-                userinfo
-            },
-            "msg": "",
-            "code": '0',
-            "success": true
-        })
-        return
-        console.log(req.query)
-        const openId = req.query.openId
-        const userInfo = req.query.userInfo
-        if (openId) {
-            console.log('验证码失效')
+
+    async login(req, res, next) {
+        // 1、
+        //console.log(req.body)
+        //const {code} = req.body
+        //071RzdJ02oMBeX08qWJ02P04J02RzdJZ
+        // if (!code) {
+        //     res.send({
+        //         "data": {
+        //         },
+        //         "msg": "没有 code 参数",
+        //         "code": '1',
+        //         "success": false
+        //     })
+        //     return
+        // }
+        // let responseJson = await this.fetch('https://api.weixin.qq.com/sns/jscode2session',{
+        //     appid: config.appid,
+        //     secret: config.secret,
+        //     js_code: 'JSCODE',
+        //     grant_type: 'authorization_code'
+        // })
+        // if (!responseJson.openid) {
+        //     res.send({
+        //         "data": {
+        //         },
+        //         "msg": "服务端出错",
+        //         "code": '5555',
+        //         "success": false
+        //     })
+        //     return
+        // }
+        // 2、先假设获取到 openid 吧
+        const {code, openId, nickName, avatarUrl, gender, province, city, country} = req.body
+        if (!openId) {
             res.send({
-                code: 1,
-                type: 'ERROR_CAPTCHA',
-                message: '验证码失效',
+                "data": {},
+                "msg": "openId 不存在",
+                "code": '4444',
+                "success": false
             })
             return
         }
-        try{
-            const user = await UserInfoModel.findOne({openId});
+        try {
+            const user = await UserInfoModel.findOpenId(openId);
             //创建一个新的用户
             if (!user) {
-                const createUser = new UserInfoModel(userInfo);
+                const createUser = new UserInfoModel({
+                    openId,
+                    nickName,
+                    avatarUrl,
+                    gender, // 默认男
+                    province,
+                    city,
+                    country,
+                });
                 const userinfo = await createUser.save();
-                // req.session.user_id = user_id;
                 res.send({
                     "data": {
                         userinfo
@@ -60,11 +87,10 @@ class UserInfo extends BaseComponent{
                     "success": true
                 })
             }
-        }catch(err){
+        } catch (err) {
             console.log('用户登陆失败', err);
             res.send({
-                "data": {
-                },
+                "data": {},
                 "msg": "用户登陆失败",
                 "code": '0001',
                 "success": false
