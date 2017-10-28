@@ -900,3 +900,1102 @@ https://api.weixin.qq.com/sns/jscode2session?appid=wx3bcac52d10a4c3f7&secret=372
 连接数据库成功
 连接数据库成功
 连接数据库成功
+连接数据库成功
+连接数据库成功
+连接数据库成功
+连接数据库成功
+连接数据库成功
+连接数据库成功
+连接数据库成功
+连接数据库成功
+连接数据库成功
+连接数据库成功
+连接数据库成功
+连接数据库成功
+连接数据库成功
+连接数据库成功
+连接数据库成功
+{ openId: '123456782',
+  nickName: '曾田生2',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+  latitude: '32.212223',
+  longitude: '120.23211',
+  address: '福鼎家园·晓风苑',
+  description: '晚上理工科艺学院跑步，一起吖',
+  imgList: '[\'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0\',\'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0\']' }
+{ openId: '123456782',
+  nickName: '曾田生2',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+  latitude: '32.212223',
+  longitude: '120.23211',
+  address: '福鼎家园·晓风苑',
+  description: '晚上理工科艺学院跑步，一起吖',
+  imgList: '[\'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0\',\'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0\']' }
+{ openId: '123456782',
+  nickName: '曾田生2',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+  latitude: '32.212223',
+  longitude: '120.23211',
+  address: '福鼎家园·晓风苑',
+  description: '晚上理工科艺学院跑步，一起吖',
+  'imgList[0]': 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+  'imgList[1]': 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+  'imgList[2]': 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0' }
+连接数据库成功
+连接数据库成功
+连接数据库成功
+连接数据库成功
+{ openId: '123456782',
+  nickName: '曾田生2',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+  latitude: '32.212223',
+  longitude: '120.23211',
+  address: '福鼎家园·晓风苑',
+  description: '晚上理工科艺学院跑步，一起吖',
+  'imgList[0]': 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+  'imgList[1]': 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+  'imgList[2]': 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0' }
+{ _id: 59f15cdebd5331cd941c0daf,
+  openId: '123456782',
+  nickName: '曾田生2',
+  province: '福建',
+  city: '漳州',
+  country: '中国',
+  __v: 0,
+  gender: 1,
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0' }
+连接数据库成功
+连接数据库成功
+连接数据库成功
+{ '{\n    "openId": "123456782",\n    "nickName": "曾田生2",\n    "avatarUrl": "https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0",\n    "latitude": "32.212223",\n    "longitude": "120.23211",\n    "address": "福鼎家园·晓风苑",\n    "description": "晚上理工科艺学院跑步，一起吖",\n    "imgList": "[\'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0\',\'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0\',\'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0\']"\n}': '' }
+{ openId: '123456782',
+  nickName: '曾田生2',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+  latitude: '32.212223',
+  longitude: '120.23211',
+  address: '福鼎家园·晓风苑',
+  description: '晚上理工科艺学院跑步，一起吖',
+  imgList: '[\'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0\',\'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0\',\'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0\']' }
+连接数据库成功
+连接数据库成功
+连接数据库成功
+连接数据库成功
+连接数据库成功
+连接数据库成功
+连接数据库成功
+连接数据库成功
+连接数据库成功
+连接数据库成功
+{ openId: '123456782',
+  nickName: '曾田生2',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+  latitude: '32.212223',
+  longitude: '120.23211',
+  address: '福鼎家园·晓风苑',
+  description: '晚上理工科艺学院跑步，一起吖',
+  imgList: '[\'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0\',\'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0\',\'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0\']' }
+{ openId: '123456782',
+  nickName: '曾田生2',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+  latitude: '32.212223',
+  longitude: '120.23211',
+  address: '福鼎家园·晓风苑',
+  description: '晚上理工科艺学院跑步，一起吖',
+  imgList: 
+   [ 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+     'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0' ] }
+连接数据库成功
+连接数据库成功
+连接数据库成功
+连接数据库成功
+连接数据库成功
+连接数据库成功
+{ openId: '123456782',
+  nickName: '曾田生2',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+  latitude: '32.212223',
+  longitude: '120.23211',
+  address: '福鼎家园·晓风苑',
+  description: '晚上理工科艺学院跑步，一起吖',
+  imgList: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0,https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0' }
+{ openId: '123456782',
+  nickName: '曾田生2',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+  latitude: '32.212223',
+  longitude: '120.23211',
+  address: '福鼎家园·晓风苑',
+  description: '晚上理工科艺学院跑步，一起吖',
+  imgList: 
+   [ 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+     'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0' ] }
+连接数据库成功
+{ openId: '123456783',
+  nickName: '曾田生2',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+  latitude: '32.212223',
+  longitude: '120.23211',
+  address: '福鼎家园·晓风苑',
+  description: '晚上理工科艺学院跑步，一起吖',
+  imgList: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0,https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0' }
+{ openId: '123456781',
+  nickName: '曾田生2',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+  latitude: '32.212223',
+  longitude: '120.23211',
+  address: '福鼎家园·晓风苑',
+  description: '晚上理工科艺学院跑步，一起吖',
+  imgList: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0,https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0' }
+{ openId: '123456781',
+  nickName: '曾田生2',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+  latitude: '32.212223',
+  longitude: '120.23211',
+  address: '福鼎家园·晓风苑',
+  description: '晚上理工科艺学院跑步，一起吖',
+  imgList: 
+   [ 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+     'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0' ] }
+{ openId: '123456781',
+  nickName: '曾田生3',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+  latitude: '32.212223',
+  longitude: '120.23211',
+  address: '福鼎家园·晓风苑',
+  description: '晚上理工科艺学院跑步，一起吖',
+  imgList: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0,https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0' }
+{ openId: '123456781',
+  nickName: '曾田生3',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+  latitude: '32.212223',
+  longitude: '120.23211',
+  address: '福鼎家园·晓风苑',
+  description: '晚上理工科艺学院跑步，一起吖',
+  imgList: 
+   [ 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+     'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0' ] }
+{ openId: '123456781',
+  nickName: '曾田生4',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+  latitude: '32.212223',
+  longitude: '120.23211',
+  address: '福鼎家园·晓风苑',
+  description: '晚上理工科艺学院跑步，一起吖',
+  imgList: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0,https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0' }
+{ openId: '123456781',
+  nickName: '曾田生4',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+  latitude: '32.212223',
+  longitude: '120.23211',
+  address: '福鼎家园·晓风苑',
+  description: '晚上理工科艺学院跑步，一起吖',
+  imgList: 
+   [ 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+     'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0' ] }
+{ openId: '123456781',
+  nickName: '曾田生5',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+  latitude: '32.212223',
+  longitude: '120.23211',
+  address: '福鼎家园·晓风苑',
+  description: '晚上理工科艺学院跑步，一起吖',
+  imgList: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0,https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0' }
+{ openId: '123456781',
+  nickName: '曾田生5',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+  latitude: '32.212223',
+  longitude: '120.23211',
+  address: '福鼎家园·晓风苑',
+  description: '晚上理工科艺学院跑步，一起吖',
+  imgList: 
+   [ 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+     'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0' ] }
+{ openId: '123456782',
+  nickName: '曾田生5',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+  latitude: '32.212223',
+  longitude: '120.23211',
+  address: '福鼎家园·晓风苑',
+  description: '晚上理工科艺学院跑步，一起吖',
+  imgList: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0,https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0' }
+{ openId: '123456782',
+  nickName: '曾田生5',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+  latitude: '32.212223',
+  longitude: '120.23211',
+  address: '福鼎家园·晓风苑',
+  description: '晚上理工科艺学院跑步，一起吖',
+  imgList: 
+   [ 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+     'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0' ] }
+{ openId: '123456782',
+  nickName: '曾田生25',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+  latitude: '32.212223',
+  longitude: '120.23211',
+  address: '福鼎家园·晓风苑',
+  description: '晚上理工科艺学院跑步，一起吖',
+  imgList: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0,https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0' }
+{ openId: '123456782',
+  nickName: '曾田生25',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+  latitude: '32.212223',
+  longitude: '120.23211',
+  address: '福鼎家园·晓风苑',
+  description: '晚上理工科艺学院跑步，一起吖',
+  imgList: 
+   [ 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+     'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0' ] }
+{ openId: '123456782',
+  nickName: '曾田生22',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+  latitude: '32.212223',
+  longitude: '120.23211',
+  address: '福鼎家园·晓风苑',
+  description: '晚上理工科艺学院跑步，一起吖',
+  imgList: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0,https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0' }
+{ openId: '123456782',
+  nickName: '曾田生22',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+  latitude: '32.212223',
+  longitude: '120.23211',
+  address: '福鼎家园·晓风苑',
+  description: '晚上理工科艺学院跑步，一起吖',
+  imgList: 
+   [ 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+     'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0' ] }
+{ openId: '123456782',
+  nickName: '曾田生21',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+  latitude: '32.212223',
+  longitude: '120.23211',
+  address: '福鼎家园·晓风苑',
+  description: '晚上理工科艺学院跑步，一起吖',
+  imgList: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0,https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0' }
+{ openId: '123456782',
+  nickName: '曾田生21',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+  latitude: '32.212223',
+  longitude: '120.23211',
+  address: '福鼎家园·晓风苑',
+  description: '晚上理工科艺学院跑步，一起吖',
+  imgList: 
+   [ 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+     'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0' ] }
+连接数据库成功
+连接数据库成功
+连接数据库成功
+连接数据库成功
+...detailOneDynamic....
+连接数据库成功
+连接数据库成功
+...detailOneDynamic....
+连接数据库成功
+连接数据库成功
+连接数据库成功
+连接数据库成功
+连接数据库成功
+{ openId: '123456782',
+  nickName: '曾田生21',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+  latitude: '32.212223',
+  longitude: '120.23211',
+  address: '福鼎家园·晓风苑',
+  description: '晚上理工科艺学院跑步，一起吖',
+  imgList: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0,https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0' }
+{ openId: '123456782',
+  nickName: '曾田生21',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+  latitude: '32.212223',
+  longitude: '120.23211',
+  address: '福鼎家园·晓风苑',
+  description: '晚上理工科艺学院跑步，一起吖',
+  imgList: 
+   [ 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+     'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0' ] }
+{ openId: '123456784',
+  nickName: '曾田生21',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+  latitude: '32.212223',
+  longitude: '120.23211',
+  address: '福鼎家园·晓风苑',
+  description: '晚上理工科艺学院跑步，一起吖',
+  imgList: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0,https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0' }
+{ openId: '123456783',
+  nickName: '曾田生21',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+  latitude: '32.212223',
+  longitude: '120.23211',
+  address: '福鼎家园·晓风苑',
+  description: '晚上理工科艺学院跑步，一起吖',
+  imgList: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0,https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0' }
+{ openId: '123456782',
+  nickName: '曾田生21',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+  latitude: '32.212223',
+  longitude: '120.23211',
+  address: '福鼎家园·晓风苑',
+  description: '晚上理工科艺学院跑步，一起吖',
+  imgList: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0,https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0' }
+{ openId: '123456782',
+  nickName: '曾田生21',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+  latitude: '32.212223',
+  longitude: '120.23211',
+  address: '福鼎家园·晓风苑',
+  description: '晚上理工科艺学院跑步，一起吖',
+  imgList: 
+   [ 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+     'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0' ] }
+连接数据库成功
+{ openId: '123456781',
+  nickName: '曾田生2',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+  latitude: '32.212223',
+  longitude: '120.23211',
+  address: '福鼎家园·晓风苑',
+  description: '晚上理工科艺学院跑步，一起吖',
+  imgList: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0,https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0' }
+{ openId: '123456781',
+  nickName: '曾田生2',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+  latitude: '32.212223',
+  longitude: '120.23211',
+  address: '福鼎家园·晓风苑',
+  description: '晚上理工科艺学院跑步，一起吖',
+  imgList: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0,https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0' }
+{ openId: '123456781',
+  nickName: '曾田生2',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+  latitude: '32.212223',
+  longitude: '120.23211',
+  address: '福鼎家园·晓风苑',
+  description: '晚上理工科艺学院跑步，一起吖',
+  imgList: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0,https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0' }
+{ openId: '123456781',
+  nickName: '曾田生2',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+  latitude: '32.212223',
+  longitude: '120.23211',
+  address: '福鼎家园·晓风苑',
+  description: '晚上理工科艺学院跑步，一起吖',
+  imgList: 
+   [ 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+     'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0' ] }
+{ openId: '123456781',
+  nickName: '曾田生12',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+  latitude: '32.212223',
+  longitude: '120.23211',
+  address: '福鼎家园·晓风苑',
+  description: '晚上理工科艺学院跑步，一起吖',
+  imgList: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0,https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0' }
+{ openId: '123456781',
+  nickName: '曾田生12',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+  latitude: '32.212223',
+  longitude: '120.23211',
+  address: '福鼎家园·晓风苑',
+  description: '晚上理工科艺学院跑步，一起吖',
+  imgList: 
+   [ 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+     'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0' ] }
+{ openId: '123456781',
+  nickName: '曾田生13',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+  latitude: '32.212223',
+  longitude: '120.23211',
+  address: '福鼎家园·晓风苑',
+  description: '晚上理工科艺学院跑步，一起吖',
+  imgList: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0,https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0' }
+{ openId: '123456781',
+  nickName: '曾田生13',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+  latitude: '32.212223',
+  longitude: '120.23211',
+  address: '福鼎家园·晓风苑',
+  description: '晚上理工科艺学院跑步，一起吖',
+  imgList: 
+   [ 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+     'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0' ] }
+{ openId: '123456781',
+  nickName: '曾田生1-4',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+  latitude: '32.212223',
+  longitude: '120.23211',
+  address: '福鼎家园·晓风苑',
+  description: '晚上理工科艺学院跑步，一起吖',
+  imgList: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0,https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0' }
+{ openId: '123456781',
+  nickName: '曾田生1-4',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+  latitude: '32.212223',
+  longitude: '120.23211',
+  address: '福鼎家园·晓风苑',
+  description: '晚上理工科艺学院跑步，一起吖',
+  imgList: 
+   [ 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+     'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0' ] }
+{ openId: '123456781',
+  nickName: '曾田生1-4',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+  latitude: '32.212223',
+  longitude: '120.23211',
+  address: '福鼎家园·晓风苑',
+  description: '晚上理工科艺学院跑步，一起吖',
+  imgList: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0,https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0' }
+{ openId: '123456781',
+  nickName: '曾田生1-4',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+  latitude: '32.212223',
+  longitude: '120.23211',
+  address: '福鼎家园·晓风苑',
+  description: '晚上理工科艺学院跑步，一起吖',
+  imgList: 
+   [ 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+     'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0' ] }
+{ openId: '123456782',
+  nickName: '曾田生1-4',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+  latitude: '32.212223',
+  longitude: '120.23211',
+  address: '福鼎家园·晓风苑',
+  description: '晚上理工科艺学院跑步，一起吖',
+  imgList: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0,https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0' }
+{ openId: '123456782',
+  nickName: '曾田生1-4',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+  latitude: '32.212223',
+  longitude: '120.23211',
+  address: '福鼎家园·晓风苑',
+  description: '晚上理工科艺学院跑步，一起吖',
+  imgList: 
+   [ 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+     'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0' ] }
+{ openId: '123456782',
+  nickName: '曾田生1-3',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+  latitude: '32.212223',
+  longitude: '120.23211',
+  address: '福鼎家园·晓风苑',
+  description: '晚上理工科艺学院跑步，一起吖',
+  imgList: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0,https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0' }
+{ openId: '123456782',
+  nickName: '曾田生1-3',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+  latitude: '32.212223',
+  longitude: '120.23211',
+  address: '福鼎家园·晓风苑',
+  description: '晚上理工科艺学院跑步，一起吖',
+  imgList: 
+   [ 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+     'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0' ] }
+{ openId: '123456783',
+  nickName: '曾田生1-3',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+  latitude: '32.212223',
+  longitude: '120.23211',
+  address: '福鼎家园·晓风苑',
+  description: '晚上理工科艺学院跑步，一起吖',
+  imgList: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0,https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0' }
+{ openId: '123456783',
+  nickName: '曾田生1-3',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+  latitude: '32.212223',
+  longitude: '120.23211',
+  address: '福鼎家园·晓风苑',
+  description: '晚上理工科艺学院跑步，一起吖',
+  imgList: 
+   [ 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+     'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0' ] }
+{ openId: '123456784',
+  nickName: '曾田生1-3',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+  latitude: '32.212223',
+  longitude: '120.23211',
+  address: '福鼎家园·晓风苑',
+  description: '晚上理工科艺学院跑步，一起吖',
+  imgList: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0,https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0' }
+{ openId: '123456784',
+  nickName: '曾田生1-3',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+  latitude: '32.212223',
+  longitude: '120.23211',
+  address: '福鼎家园·晓风苑',
+  description: '晚上理工科艺学院跑步，一起吖',
+  imgList: 
+   [ 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+     'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0' ] }
+{ openId: '123456785',
+  nickName: '曾田生1-3',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+  latitude: '32.212223',
+  longitude: '120.23211',
+  address: '福鼎家园·晓风苑',
+  description: '晚上理工科艺学院跑步，一起吖',
+  imgList: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0,https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0' }
+{ openId: '123456785',
+  nickName: '曾田生1-3',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+  latitude: '32.212223',
+  longitude: '120.23211',
+  address: '福鼎家园·晓风苑',
+  description: '晚上理工科艺学院跑步，一起吖',
+  imgList: 
+   [ 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+     'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0' ] }
+{ openId: '123456785',
+  nickName: '曾田生1-2',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+  latitude: '32.212223',
+  longitude: '120.23211',
+  address: '福鼎家园·晓风苑',
+  description: '晚上理工科艺学院跑步，一起吖',
+  imgList: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0,https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0' }
+{ openId: '123456785',
+  nickName: '曾田生1-2',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+  latitude: '32.212223',
+  longitude: '120.23211',
+  address: '福鼎家园·晓风苑',
+  description: '晚上理工科艺学院跑步，一起吖',
+  imgList: 
+   [ 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+     'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0' ] }
+{ openId: '123456785',
+  nickName: '曾田生1-1',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+  latitude: '32.212223',
+  longitude: '120.23211',
+  address: '福鼎家园·晓风苑',
+  description: '晚上理工科艺学院跑步，一起吖',
+  imgList: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0,https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0' }
+{ openId: '123456785',
+  nickName: '曾田生1-1',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+  latitude: '32.212223',
+  longitude: '120.23211',
+  address: '福鼎家园·晓风苑',
+  description: '晚上理工科艺学院跑步，一起吖',
+  imgList: 
+   [ 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+     'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0' ] }
+{ openId: '123456785',
+  nickName: '曾田生1-134',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+  latitude: '32.212223',
+  longitude: '120.23211',
+  address: '福鼎家园·晓风苑',
+  description: '晚上理工科艺学院跑步，一起吖',
+  imgList: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0,https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0' }
+{ openId: '123456785',
+  nickName: '曾田生1-134',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+  latitude: '32.212223',
+  longitude: '120.23211',
+  address: '福鼎家园·晓风苑',
+  description: '晚上理工科艺学院跑步，一起吖',
+  imgList: 
+   [ 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+     'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0' ] }
+{ openId: '123456785',
+  nickName: '曾田生1-136',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+  latitude: '32.212223',
+  longitude: '120.23211',
+  address: '福鼎家园·晓风苑',
+  description: '晚上理工科艺学院跑步，一起吖',
+  imgList: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0,https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0' }
+{ openId: '123456785',
+  nickName: '曾田生1-136',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+  latitude: '32.212223',
+  longitude: '120.23211',
+  address: '福鼎家园·晓风苑',
+  description: '晚上理工科艺学院跑步，一起吖',
+  imgList: 
+   [ 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+     'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0' ] }
+{ openId: '123456784',
+  nickName: '曾田生1-136',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+  latitude: '32.212223',
+  longitude: '120.23211',
+  address: '福鼎家园·晓风苑',
+  description: '晚上理工科艺学院跑步，一起吖',
+  imgList: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0,https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0' }
+{ openId: '123456784',
+  nickName: '曾田生1-136',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+  latitude: '32.212223',
+  longitude: '120.23211',
+  address: '福鼎家园·晓风苑',
+  description: '晚上理工科艺学院跑步，一起吖',
+  imgList: 
+   [ 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+     'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0' ] }
+{ openId: '123456783',
+  nickName: '曾田生1-136',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+  latitude: '32.212223',
+  longitude: '120.23211',
+  address: '福鼎家园·晓风苑',
+  description: '晚上理工科艺学院跑步，一起吖',
+  imgList: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0,https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0' }
+{ openId: '123456783',
+  nickName: '曾田生1-136',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+  latitude: '32.212223',
+  longitude: '120.23211',
+  address: '福鼎家园·晓风苑',
+  description: '晚上理工科艺学院跑步，一起吖',
+  imgList: 
+   [ 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+     'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0' ] }
+{ openId: '123456783',
+  nickName: '曾田生1-132',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+  latitude: '32.212223',
+  longitude: '120.23211',
+  address: '福鼎家园·晓风苑',
+  description: '晚上理工科艺学院跑步，一起吖',
+  imgList: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0,https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0' }
+{ openId: '123456783',
+  nickName: '曾田生1-132',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+  latitude: '32.212223',
+  longitude: '120.23211',
+  address: '福鼎家园·晓风苑',
+  description: '晚上理工科艺学院跑步，一起吖',
+  imgList: 
+   [ 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+     'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0' ] }
+{ openId: '123456783',
+  nickName: '曾田生1-135',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+  latitude: '32.212223',
+  longitude: '120.23211',
+  address: '福鼎家园·晓风苑',
+  description: '晚上理工科艺学院跑步，一起吖',
+  imgList: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0,https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0' }
+{ openId: '123456783',
+  nickName: '曾田生1-135',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+  latitude: '32.212223',
+  longitude: '120.23211',
+  address: '福鼎家园·晓风苑',
+  description: '晚上理工科艺学院跑步，一起吖',
+  imgList: 
+   [ 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+     'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0' ] }
+{ openId: '123456783',
+  nickName: '曾田生1-139',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+  latitude: '32.212223',
+  longitude: '120.23211',
+  address: '福鼎家园·晓风苑',
+  description: '晚上理工科艺学院跑步，一起吖',
+  imgList: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0,https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0' }
+{ openId: '123456783',
+  nickName: '曾田生1-139',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+  latitude: '32.212223',
+  longitude: '120.23211',
+  address: '福鼎家园·晓风苑',
+  description: '晚上理工科艺学院跑步，一起吖',
+  imgList: 
+   [ 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+     'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0' ] }
+连接数据库成功
+连接数据库成功
+连接数据库成功
+连接数据库成功
+连接数据库成功
+连接数据库成功
+连接数据库成功
+连接数据库成功
+{ id: '59f1a46333b0d90c6097628f' }
+{ id: '59f1a46333b0d90c6097628f' }
+{ id: '59f1a46333b0d90c6097628f', pageNum: '0', pageSize: '0' }
+{ id: '59f1a46333b0d90c6097628f', pageNum: '1', pageSize: '3' }
+连接数据库成功
+连接数据库成功
+{ id: '59f1a46333b0d90c6097628f', pageNum: '1', pageSize: '3' }
+...findCondition.....
+{ MongoError: Failed to parse: { find: "dynamics", filter: {}, sort: { createdAt: -1 }, projection: {}, skip: 3, limit: "3" }. 'limit' field must be numeric.
+    at Function.MongoError.create (/Users/zengtiansheng/Documents/qtshe/gitStore/node-yqy/node_modules/_mongodb-core@2.1.17@mongodb-core/lib/error.js:31:11)
+    at queryCallback (/Users/zengtiansheng/Documents/qtshe/gitStore/node-yqy/node_modules/_mongodb-core@2.1.17@mongodb-core/lib/cursor.js:212:36)
+    at /Users/zengtiansheng/Documents/qtshe/gitStore/node-yqy/node_modules/_mongodb-core@2.1.17@mongodb-core/lib/connection/pool.js:469:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickDomainCallback (internal/process/next_tick.js:218:9)
+  name: 'MongoError',
+  message: 'Failed to parse: { find: "dynamics", filter: {}, sort: { createdAt: -1 }, projection: {}, skip: 3, limit: "3" }. \'limit\' field must be numeric.',
+  ok: 0,
+  errmsg: 'Failed to parse: { find: "dynamics", filter: {}, sort: { createdAt: -1 }, projection: {}, skip: 3, limit: "3" }. \'limit\' field must be numeric.',
+  code: 9,
+  codeName: 'FailedToParse' }
+null
+连接数据库成功
+{ id: '59f1a46333b0d90c6097628f', pageNum: '1', pageSize: '3' }
+...findCondition.....
+null
+[ { _id: 59f1ca499c9ed014e6125057,
+    updatedAt: 2017-10-26T11:43:05.711Z,
+    createdAt: 2017-10-26T11:43:05.711Z,
+    openId: '123456783',
+    nickName: '曾田生1-132',
+    latitude: '32.212223',
+    longitude: '120.23211',
+    address: '福鼎家园·晓风苑',
+    description: '晚上理工科艺学院跑步，一起吖',
+    __v: 0,
+    imgList: 
+     [ 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+       'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0' ],
+    avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0' } ]
+连接数据库成功
+{ id: '59f1a46333b0d90c6097628f', pageNum: '1', pageSize: '3' }
+连接数据库成功
+{ id: '59f1a46333b0d90c6097628f' }
+{ id: '59f1a46333b0d90c6097628f', pageNum: '0', pageSize: '3' }
+连接数据库成功
+连接数据库成功
+连接数据库成功
+连接数据库成功
+连接数据库成功
+连接数据库成功
+连接数据库成功
+{ id: '59f1a46333b0d90c6097628f', pageNum: '0', pageSize: '3' }
+连接数据库成功
+{ id: '59f1a46333b0d90c6097628f', pageNum: '0', pageSize: '3' }
+连接数据库成功
+连接数据库成功
+{ id: '59f1a46333b0d90c6097628f', pageNum: '1', pageSize: '3' }
+连接数据库成功
+连接数据库成功
+{ openId: '123456783',
+  nickName: '曾田生1-139',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+  latitude: '32.212223',
+  longitude: '120.23211',
+  location: [ 120.02992629999994, 30.2244392 ],
+  address: '福鼎家园·晓风苑',
+  description: '晚上理工科艺学院跑步，一起吖',
+  imgList: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0,https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0' }
+{ openId: '123456783',
+  nickName: '曾田生1-139',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+  latitude: '32.212223',
+  longitude: '120.23211',
+  location: [ 120.02992629999994, 30.2244392 ],
+  address: '福鼎家园·晓风苑',
+  description: '晚上理工科艺学院跑步，一起吖',
+  imgList: 
+   [ 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+     'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0' ] }
+{ openId: '123456783',
+  nickName: '曾田生1-139',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+  latitude: '32.212223',
+  longitude: '120.23211',
+  location: [ 120.02992629999994, 30.2244392 ],
+  address: '福鼎家园·晓风苑',
+  description: '晚上理工科艺学院跑步，一起吖',
+  imgList: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0,https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0' }
+{ openId: '123456783',
+  nickName: '曾田生1-139',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+  latitude: '32.212223',
+  longitude: '120.23211',
+  location: [ 120.02992629999994, 30.2244392 ],
+  address: '福鼎家园·晓风苑',
+  description: '晚上理工科艺学院跑步，一起吖',
+  imgList: 
+   [ 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+     'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0' ] }
+{ openId: '123456783',
+  nickName: '曾田生1-139',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+  latitude: '32.212223',
+  longitude: '120.23211',
+  location: [ -74.0059731, 40.7143528 ],
+  address: '纽约·晓风苑',
+  description: '晚上理工科艺学院跑步，一起吖',
+  imgList: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0,https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0' }
+{ openId: '123456783',
+  nickName: '曾田生1-139',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+  latitude: '32.212223',
+  longitude: '120.23211',
+  location: [ -74.0059731, 40.7143528 ],
+  address: '纽约·晓风苑',
+  description: '晚上理工科艺学院跑步，一起吖',
+  imgList: 
+   [ 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+     'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0' ] }
+{ openId: '123456783',
+  nickName: '曾田生1-139',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+  latitude: '32.212223',
+  longitude: '120.23211',
+  location: [ 120.68499999999995, 27.98 ],
+  address: '浙江省温州·晓风苑',
+  description: '晚上理工科艺学院跑步，一起吖',
+  imgList: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0,https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0' }
+{ openId: '123456783',
+  nickName: '曾田生1-139',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+  latitude: '32.212223',
+  longitude: '120.23211',
+  location: [ 120.68499999999995, 27.98 ],
+  address: '浙江省温州·晓风苑',
+  description: '晚上理工科艺学院跑步，一起吖',
+  imgList: 
+   [ 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+     'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0' ] }
+{ openId: '123456783',
+  nickName: '曾田生1-139',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+  latitude: '32.212223',
+  longitude: '120.23211',
+  location: [ 120.12440500000002, 30.275874 ],
+  address: '杭州鼓荡·晓风苑',
+  description: '晚上理工科艺学院跑步，一起吖',
+  imgList: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0,https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0' }
+{ openId: '123456783',
+  nickName: '曾田生1-139',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+  latitude: '32.212223',
+  longitude: '120.23211',
+  location: [ 120.12440500000002, 30.275874 ],
+  address: '杭州鼓荡·晓风苑',
+  description: '晚上理工科艺学院跑步，一起吖',
+  imgList: 
+   [ 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+     'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0' ] }
+{ openId: '123456783',
+  nickName: '曾田生1-139',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+  latitude: '32.212223',
+  longitude: '120.23211',
+  location: [ 120.35459270000001, 30.3041019 ],
+  address: '浙江省中医院下沙院区·晓风苑',
+  description: '晚上理工科艺学院跑步，一起吖',
+  imgList: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0,https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0' }
+{ openId: '123456783',
+  nickName: '曾田生1-139',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+  latitude: '32.212223',
+  longitude: '120.23211',
+  location: [ 120.35459270000001, 30.3041019 ],
+  address: '浙江省中医院下沙院区·晓风苑',
+  description: '晚上理工科艺学院跑步，一起吖',
+  imgList: 
+   [ 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+     'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0' ] }
+{ openId: '123456783',
+  nickName: '曾田生1-139',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+  latitude: '32.212223',
+  longitude: '120.23211',
+  location: [ 120.18971299999998, 30.18886 ],
+  address: '阿里巴巴总部·晓风苑',
+  description: '晚上理工科艺学院跑步，一起吖',
+  imgList: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0,https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0' }
+{ openId: '123456783',
+  nickName: '曾田生1-139',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+  latitude: '32.212223',
+  longitude: '120.23211',
+  location: [ 120.18971299999998, 30.18886 ],
+  address: '阿里巴巴总部·晓风苑',
+  description: '晚上理工科艺学院跑步，一起吖',
+  imgList: 
+   [ 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+     'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0' ] }
+连接数据库成功
+{ id: '59f1a46333b0d90c6097628f',
+  pageNum: '1',
+  pageSize: '3',
+  location: '[ 120.02992629999994, 30.2244392 ]' }
+连接数据库成功
+连接数据库成功
+连接数据库成功
+{ id: '59f1a46333b0d90c6097628f',
+  pageNum: '1',
+  pageSize: '3',
+  location: [ '[ 120.02992629999994', ' 30.2244392 ]' ] }
+{ id: '59f1a46333b0d90c6097628f',
+  pageNum: '1',
+  pageSize: '3',
+  location: [ '120.02992629999994', ' 30.2244392' ] }
+{ id: '59f1a46333b0d90c6097628f',
+  pageNum: '1',
+  pageSize: '3',
+  location: [ '-74.0059731', ' 40.7143528' ] }
+连接数据库成功
+连接数据库成功
+连接数据库成功
+{ id: '59f1a46333b0d90c6097628f',
+  pageNum: '1',
+  pageSize: '3',
+  location: [ '-74.0059731', ' 40.7143528' ] }
+连接数据库成功
+连接数据库成功
+{ id: '59f1a46333b0d90c6097628f',
+  pageNum: '1',
+  pageSize: '3',
+  location: [ '-74.0059731', ' 40.7143528' ] }
+连接数据库成功
+{ id: '59f1a46333b0d90c6097628f',
+  pageNum: '1',
+  pageSize: '3',
+  location: [ '-74.0059731', ' 40.7143528' ] }
+{ id: '59f1a46333b0d90c6097628f',
+  pageNum: '0',
+  pageSize: '3',
+  location: [ '-74.0059731', ' 40.7143528' ] }
+{ id: '59f1a46333b0d90c6097628f',
+  pageNum: '0',
+  pageSize: '3',
+  location: [ '-74.0059731', ' 40.7143528' ] }
+{ id: '59f1a46333b0d90c6097628f',
+  pageNum: '0',
+  pageSize: '3',
+  location: [ '[-74.0059731', ' 40.714f3528]' ] }
+连接数据库成功
+{ id: '59f1a46333b0d90c6097628f',
+  pageNum: '0',
+  pageSize: '3',
+  location: [ '-74.0059731', ' 40.714f3528' ] }
+连接数据库成功
+{ id: '59f1a46333b0d90c6097628f',
+  pageNum: '0',
+  pageSize: '3',
+  latitude: '-74.0059731',
+  longitude: '40.714f3528' }
+连接数据库成功
+连接数据库成功
+{ id: '59f1a46333b0d90c6097628f',
+  pageNum: '0',
+  pageSize: '3',
+  location: [ '-74.0059731', '40.714f3528', latitude: NaN, longitude: NaN ] }
+连接数据库成功
+{ id: '59f1a46333b0d90c6097628f',
+  pageNum: '0',
+  pageSize: '3',
+  location: [ -74.0059731, 40.714 ] }
+{ id: '59f1a46333b0d90c6097628f',
+  pageNum: '0',
+  pageSize: '3',
+  location: [ 120.02992629999994, 30.2244392 ] }
+连接数据库成功
+连接数据库成功
+连接数据库成功
+连接数据库成功
+连接数据库成功
+连接数据库成功
+连接数据库成功
+连接数据库成功
+连接数据库成功
+连接数据库成功
+{ openId: '123456783',
+  nickName: '曾田生-jj',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0' }
+连接数据库成功
+连接数据库成功
+{ openId: '123456783',
+  nickName: '曾田生-jj',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+  id: '59f1c9e99c9ed014e6125047' }
+{ openId: '123456783',
+  nickName: '曾田生-jj',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+  id: '59f1c9e99c9ed014e6125047' }
+连接数据库成功
+连接数据库成功
+连接数据库成功
+连接数据库成功
+连接数据库成功
+{ openId: '123456783',
+  nickName: '曾田生-jj',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+  id: '59f1c9e99c9ed014e6125047' }
+{ openId: '123456783',
+  nickName: '曾田生-jj',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+  id: '59f1c9e99c9ed014e6125047' }
+连接数据库成功
+{ openId: '123456783',
+  nickName: '曾田生-jj',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+  id: '59f1c9e99c9ed014e6125047' }
+[{"openId":"123456783","nickName":"曾田生-jj","avatarUrl":"https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0"},{"openId":"123456783","nickName":"曾田生-jj","avatarUrl":"https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0"},{"openId":"123456783","nickName":"曾田生-jj","avatarUrl":"https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0"},{"openId":"123456783","nickName":"曾田生-jj","avatarUrl":"https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0"}]
+123456783
+123456783
+123456783
+123456783
+连接数据库成功
+{ openId: '123456783',
+  nickName: '曾田生-jj',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+  id: '59f1c9e99c9ed014e6125047' }
+[{"openId":"123456783","nickName":"曾田生-jj","avatarUrl":"https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0"},{"openId":"123456783","nickName":"曾田生-jj","avatarUrl":"https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0"},{"openId":"123456783","nickName":"曾田生-jj","avatarUrl":"https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0"},{"openId":"123456783","nickName":"曾田生-jj","avatarUrl":"https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0"},{"openId":"123456783","nickName":"曾田生-jj","avatarUrl":"https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0"}]
+123456783
+123456783
+123456783
+123456783
+123456783
+连接数据库成功
+{ openId: '123456783',
+  nickName: '曾田生-jj',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+  id: '59f1c9e99c9ed014e6125047' }
+[{"openId":"123456783","nickName":"曾田生-jj","avatarUrl":"https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0"},{"openId":"123456783","nickName":"曾田生-jj","avatarUrl":"https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0"},{"openId":"123456783","nickName":"曾田生-jj","avatarUrl":"https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0"},{"openId":"123456783","nickName":"曾田生-jj","avatarUrl":"https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0"},{"openId":"123456783","nickName":"曾田生-jj","avatarUrl":"https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0"},{"openId":"123456783","nickName":"曾田生-jj","avatarUrl":"https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0"}]
+123456783
+.....jjjjj
+123456783
+.....jjjjj
+123456783
+.....jjjjj
+123456783
+.....jjjjj
+123456783
+.....jjjjj
+123456783
+.....jjjjj
+连接数据库成功
+连接数据库成功
+连接数据库成功
+连接数据库成功
+连接数据库成功
+连接数据库成功
+连接数据库成功
+连接数据库成功
+连接数据库成功
+连接数据库成功
+连接数据库成功
+连接数据库成功
+连接数据库成功
+连接数据库成功
+连接数据库成功
+连接数据库成功
+连接数据库成功
+连接数据库成功
+连接数据库成功
+{ openId: '123456783',
+  nickName: '曾田生-jj',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+  id: '59f1c9e99c9ed014e6125047' }
+{ openId: '123456783',
+  nickName: '曾田生-jj',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+  id: '59f1c9e99c9ed014e6125047' }
+{ openId: '123456783',
+  nickName: '曾田生-jj',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+  id: '59f1c9e99c9ed014e6125047' }
+{ openId: '123456783',
+  nickName: '曾田生-jj',
+  avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKApG4aicW5835FUgOBY75jRDaYt8B84YIQL6v9J9lI4KEPA1nicGNxtdlI5iamIosXiaRqiavDAXmW2rQ/0',
+  id: '59f1c9e99c9ed014e6125047' }
+连接数据库成功

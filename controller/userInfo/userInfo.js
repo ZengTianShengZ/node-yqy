@@ -12,7 +12,6 @@ class UserInfo extends BaseComponent {
         super()
         this.login = this.login.bind(this)
     }
-
     async login(req, res, next) {
         // 1、
         //console.log(req.body)
@@ -50,7 +49,7 @@ class UserInfo extends BaseComponent {
             res.send({
                 "data": {},
                 "msg": "openId 不存在",
-                "code": '4444',
+                "code": 4444,
                 "success": false
             })
             return
@@ -74,7 +73,7 @@ class UserInfo extends BaseComponent {
                         userinfo
                     },
                     "msg": "",
-                    "code": '0',
+                    "code": 0,
                     "success": true
                 })
             } else {
@@ -83,16 +82,15 @@ class UserInfo extends BaseComponent {
                         user
                     },
                     "msg": "",
-                    "code": '0',
+                    "code": 0,
                     "success": true
                 })
             }
         } catch (err) {
-            console.log('用户登陆失败', err);
             res.send({
                 "data": {},
-                "msg": "用户登陆失败",
-                "code": '0001',
+                "msg": "服务器错误",
+                "code": 5999,
                 "success": false
             })
         }

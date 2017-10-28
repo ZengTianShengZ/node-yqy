@@ -154,20 +154,45 @@ response: {
 
 ### 发布动态
 ```
-url:    /sendDynamic
+url:    /postDynamic
 method: post
 ```
 ```
 request: {
-  openid: "",
+  openId: "",
   nickName: "",
   avatarUrl: "",
+  latitude: "",  // 纬度
+  longitude: "", // 经度
   address: "",                   // 地址
   description: '说的就是开机定',    // 描述
   imgList: [                     // 七牛图片链接
      '../../images/matter/img7.jpeg',
      '../../images/matter/img8.jpeg'
   ]
+}
+```
+```
+response: {
+    "data": {
+    }
+    "msg": "",
+    "code": 0,
+    "success": true
+}
+```
+
+### 加入 一起吖
+```
+url:    /joinYqy
+method: post
+```
+```
+request: {
+  id: "",   // news id
+  openId: "",
+  nickName: "",
+  avatarUrl: ""
 }
 ```
 ```
