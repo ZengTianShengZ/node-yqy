@@ -28,7 +28,7 @@ class PostDynamic extends BaseComponent {
             if (!openId) {
                 res.send({
                     "data": {},
-                    "msg": "openId 不存在",
+                    "msg": "openId 不存在,请登录",
                     "code": 4444,
                     "success": false
                 })
@@ -88,11 +88,11 @@ class PostDynamic extends BaseComponent {
             })
         }
     }
-    async getDynamicFromOpenId(req, res, next) {
-        // const {id} = req.body
+    async getOpenIdInJoinIdList(req, res, next) {
+        console.log(req.body)
         try{
             // 不传 id 默认查找第一条数据
-            const data = await DynamicModel.findForId(req.body.id);
+            const data = await DynamicModel.findOpenIdInJoinIdList(req.body);
             res.send({
                 data,
                 "msg": "",
@@ -152,7 +152,6 @@ class PostDynamic extends BaseComponent {
                     "success": true
                 })
             }
-
         } catch (err) {
             res.send({
                 "data": {},

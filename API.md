@@ -131,11 +131,11 @@ method: post
 ```
 ```
 request: {
-  id: " ",  // 详情页 id
+  dynamicId: " ",  // 详情页 id
   nickName: "",
   avatarUrl: "",
   comment: "说的就案件的就是就看", // 评论内容,
-  replyto: { // 回复某条评论，没有就传空
+  replyTo: { // 回复某条评论，没有就传空
        nickName: '曾田生cc',
        comment: '说的就案件的就是就看看模块时代是的搜东山口卡就是卡死进度款几十块几点开始'
   }
