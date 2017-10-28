@@ -12,6 +12,30 @@ class UserInfo extends BaseComponent {
         super()
         this.login = this.login.bind(this)
     }
+    async checkLogin(req, res, next) {
+        const {openId} = req.body
+        if (!openId) {
+            res.send({
+                "data": {},
+                "msg": "openId 不存在",
+                "code": 4444,
+                "success": false
+            })
+            return
+        } else {
+            const user = await UserInfoModel.findOpenId(openId);
+            if (user.openId) {
+                next()
+            } else {
+                res.send({
+                    "data": {},
+                    "msg": "用户不存在",
+                    "code": 4999,
+                    "success": false
+                })
+            }
+        }
+    }
     async login(req, res, next) {
         // 1、
         //console.log(req.body)

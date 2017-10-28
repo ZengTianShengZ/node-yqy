@@ -20,7 +20,7 @@ const commentSchema = new Schema({
 //﻿创建索引 openId， 1 在这里代表正向排序， -1 就逆向
 commentSchema.index({dynamicId: 1})
 
-commentSchema.statics.findCommentFormDynamicId = async function (obj_comment) {
+commentSchema.statics.createComment = async function (obj_comment) {
     const comment = await this.create(obj_comment)
     return comment
 }
