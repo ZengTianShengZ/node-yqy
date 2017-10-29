@@ -24,7 +24,7 @@ class UserInfo extends BaseComponent {
             return
         } else {
             const user = await UserInfoModel.findOpenId(openId);
-            if (user.openId) {
+            if (user) {
                 next()
             } else {
                 res.send({
@@ -37,38 +37,43 @@ class UserInfo extends BaseComponent {
         }
     }
     async login(req, res, next) {
+        const {code, nickName, avatarUrl, gender, province, city, country} = req.body
+        let openId = ''
         // 1、
-        //console.log(req.body)
-        //const {code} = req.body
+        const {code} = req.body
+        console.log('....code....')
+        console.log(code)
         //071RzdJ02oMBeX08qWJ02P04J02RzdJZ
-        // if (!code) {
-        //     res.send({
-        //         "data": {
-        //         },
-        //         "msg": "没有 code 参数",
-        //         "code": '1',
-        //         "success": false
-        //     })
-        //     return
-        // }
-        // let responseJson = await this.fetch('https://api.weixin.qq.com/sns/jscode2session',{
-        //     appid: config.appid,
-        //     secret: config.secret,
-        //     js_code: 'JSCODE',
-        //     grant_type: 'authorization_code'
-        // })
-        // if (!responseJson.openid) {
-        //     res.send({
-        //         "data": {
-        //         },
-        //         "msg": "服务端出错",
-        //         "code": '5555',
-        //         "success": false
-        //     })
-        //     return
-        // }
+        if (!code) {
+            res.send({
+                "data": {
+                },
+                "msg": "没有 code 参数",
+                "code": '1',
+                "success": false
+            })
+            return
+        }
+        let responseJson = await this.fetch('https://api.weixin.qq.com/sns/jscode2session',{
+            appid: config.appid,
+            secret: config.secret,
+            js_code: 'JSCODE',
+            grant_type: 'authorization_code'
+        })
+        console.log('....responseJson....')
+        console.log(responseJson)
+        if (!responseJson.openid) {
+            res.send({
+                "data": {
+                },
+                "msg": "服务端出错",
+                "code": '5555',
+                "success": false
+            })
+            return
+        }
+        openId = responseJson.openid
         // 2、先假设获取到 openid 吧
-        const {code, openId, nickName, avatarUrl, gender, province, city, country} = req.body
         if (!openId) {
             res.send({
                 "data": {},

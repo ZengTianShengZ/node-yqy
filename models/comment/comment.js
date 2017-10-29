@@ -8,6 +8,7 @@ import mongoose from 'mongoose'
 const Schema = mongoose.Schema
 
 const commentSchema = new Schema({
+    openId: String,
     dynamicId: String,
     nickName: String,
     avatarUrl: {type: String, default: 'default.jpg'},
