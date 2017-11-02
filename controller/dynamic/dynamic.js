@@ -124,6 +124,7 @@ class PostDynamic extends BaseComponent {
                 "success": false
             })
         } catch (err) {
+            console.log(err)
             res.send({
                 "data": {},
                 "msg": "服务器错误",
