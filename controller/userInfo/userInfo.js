@@ -38,12 +38,8 @@ class UserInfo extends BaseComponent {
     }
     async login(req, res, next) {
         const {code, nickName, avatarUrl, gender, province, city, country} = req.body
-        let openId = ''
-        // 1、
-        const {code} = req.body
         console.log('....code....')
         console.log(code)
-        //071RzdJ02oMBeX08qWJ02P04J02RzdJZ
         if (!code) {
             res.send({
                 "data": {
@@ -57,28 +53,18 @@ class UserInfo extends BaseComponent {
         let responseJson = await this.fetch('https://api.weixin.qq.com/sns/jscode2session',{
             appid: config.appid,
             secret: config.secret,
-            js_code: 'JSCODE',
+            js_code: code,
             grant_type: 'authorization_code'
         })
         console.log('....responseJson....')
         console.log(responseJson)
-        if (!responseJson.openid) {
+        const  openId = responseJson.openid
+        if (!openId) {
             res.send({
                 "data": {
                 },
                 "msg": "服务端出错",
                 "code": '5555',
-                "success": false
-            })
-            return
-        }
-        openId = responseJson.openid
-        // 2、先假设获取到 openid 吧
-        if (!openId) {
-            res.send({
-                "data": {},
-                "msg": "openId 不存在",
-                "code": 4444,
                 "success": false
             })
             return
@@ -98,18 +84,14 @@ class UserInfo extends BaseComponent {
                 });
                 const userinfo = await createUser.save();
                 res.send({
-                    "data": {
-                        userinfo
-                    },
+                    "data": userinfo,
                     "msg": "",
                     "code": 0,
                     "success": true
                 })
             } else {
                 res.send({
-                    "data": {
-                        user
-                    },
+                    "data": user,
                     "msg": "",
                     "code": 0,
                     "success": true

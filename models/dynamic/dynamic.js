@@ -10,7 +10,7 @@ const Schema = mongoose.Schema
 const dynamicSchema = new Schema({
     openId: String,
     nickName: String,
-    avatarUrl: {type: String, default: 'default.jpg'},
+    avatarUrl: {type: String, default: 'http://oyn5he3v2.bkt.clouddn.com/defaultAvatar.png'},
     //latitude: String,
     //longitude: String,
     location: { type: [ Number ], index: { type: '2dsphere', sparse: true } },

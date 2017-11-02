@@ -11,7 +11,7 @@ const Schema = mongoose.Schema
 const userInfoSchema = new Schema({
     openId: String,
     nickName: String,
-    avatarUrl: {type: String, default: 'default.jpg'},
+    avatarUrl: {type: String, default: 'http://oyn5he3v2.bkt.clouddn.com/defaultAvatar.png'},
     gender: {type: Number, default: 1}, // 默认男
     province: String,
     city: String,
