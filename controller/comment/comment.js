@@ -34,11 +34,9 @@ class Commont extends BaseComponent {
     async getConditionComment (req, res, next) {
         console.log(req.body)
         try {
-            const comment = await CommentModel.findCondition(req.body);
+            const data = await CommentModel.findCondition(req.body);
             res.send({
-                "data": {
-                    comment
-                },
+                data,
                 "msg": "",
                 "code": 0,
                 "success": true

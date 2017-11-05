@@ -4,6 +4,7 @@
  * @update: 2017/10/26
  */
 import mongoose from 'mongoose'
+import * as utils from '../../utils'
 
 const Schema = mongoose.Schema
 
@@ -106,8 +107,18 @@ dynamicSchema.statics.findCondition = async function (obj_condition) {
         .sort({createdAt: -1})  // 默认逆向排序，取最新值
         .skip(pageNum * pageSize)
         .limit(pageSize)
+    let list = []
+    dynamicList.forEach((item, index) => {
+        let {_id,openId,nickName,avatarUrl,location,address,description,imgList,joinIdList,createdAt} = item
+        const time = utils.timeFormat(createdAt)
+        let obj = {
+            _id,openId,nickName,avatarUrl,location,address,description,imgList,joinIdList,createdAt,
+            time
+        }
+        list.push(obj)
+    })
     return {
-        dynamicList,
+        list,
         pageNum,
         pageSize,
         totalCount,

@@ -32,12 +32,12 @@ commentSchema.statics.findCondition = async function (obj_condition) {
     pageSize = parseInt(pageSize)
     const totalCount = await this.find({dynamicId: dynamicId}).count()
     const totalPageNum = Math.ceil(totalCount / pageSize)
-    let dynamicList = await this.find({dynamicId: dynamicId})
+    let list = await this.find({dynamicId: dynamicId})
         .sort({createdAt: -1})  // 默认逆向排序，取最新值
         .skip(pageNum * pageSize)
         .limit(pageSize)
     return {
-        dynamicList,
+        list,
         pageNum,
         pageSize,
         totalCount,

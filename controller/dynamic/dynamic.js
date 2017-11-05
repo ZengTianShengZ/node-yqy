@@ -6,6 +6,7 @@
 import BaseComponent from '../../prototype/baseComponent'
 import UserInfoModel from '../../models/userInfo/userInfo'
 import DynamicModel from '../../models/dynamic/dynamic'
+import * as utils from '../../utils'
 
 class PostDynamic extends BaseComponent {
     constructor() {
@@ -116,7 +117,7 @@ class PostDynamic extends BaseComponent {
             arr_location[0] = parseFloat(arr_location[0])
             arr_location[1] = parseFloat(arr_location[1])
             req.body.location = arr_location
-            const data = await DynamicModel.findCondition(req.body);
+            let data = await DynamicModel.findCondition(req.body);
             res.send({
                 data,
                 "msg": "",
