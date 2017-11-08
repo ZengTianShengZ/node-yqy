@@ -69,6 +69,9 @@ class PostDynamic extends BaseComponent {
             }
         }
     }
+    async uploadImg(req, res, next) {
+        console.log(req.body)
+    }
     async getDetailOneDynamic(req, res, next) {
         // const {id} = req.body
         try{

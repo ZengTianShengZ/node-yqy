@@ -5,6 +5,7 @@
  */
 
 import express from 'express';
+import utils from '../controller/utils'
 import UserInfo from '../controller/userInfo/userInfo'
 import Dynamic from '../controller/dynamic/dynamic'
 import Comment from '../controller/comment/comment'
@@ -21,5 +22,6 @@ router.post('/getConditionDynamic', Dynamic.getConditionDynamic)
 
 router.post('/getConditionComment', Comment.getConditionComment)
 
+router.get('/qnUptoken', utils.getQnUptoken)
 
 export default router

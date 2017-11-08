@@ -12,9 +12,12 @@ const router = express.Router();
 
 router.post('/postDynamic', Dynamic.postDynamic)
 
+router.post('/uploadImg', Dynamic.uploadImg)
+
 router.post('/joinYqy', Dynamic.joinYqy)
 
 router.post('/commont', Comment.commont)
+
 
 
 export default router
