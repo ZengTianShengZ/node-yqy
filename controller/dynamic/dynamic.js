@@ -24,7 +24,7 @@ class PostDynamic extends BaseComponent {
     async postDynamic(req, res, next) {
         console.log(req.body)
 
-        const {openId, imgList} = req.body
+        const {openId, imgList, location} = req.body
         if (this.isLogin(req, res, next)) {
             if (!openId) {
                 res.send({
@@ -40,6 +40,7 @@ class PostDynamic extends BaseComponent {
                 if (user) {
                     // 字符串转数组
                     req.body.imgList = imgList.split(",");
+                    req.body.location = location.split(",");
                     console.log(req.body)
                     const createDynamic = new DynamicModel(req.body);
                     const dynamic = await createDynamic.save();
