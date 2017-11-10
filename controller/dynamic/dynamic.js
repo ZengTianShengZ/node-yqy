@@ -93,6 +93,26 @@ class PostDynamic extends BaseComponent {
             })
         }
     }
+    async findForOpenId(req, res, next) {
+        console.log(req.body)
+        try{
+            // 不传 id 默认查找第一条数据
+            const data = await DynamicModel.findForOpenId(req.body);
+            res.send({
+                data,
+                "msg": "",
+                "code": 0,
+                "success": false
+            })
+        } catch (err) {
+            res.send({
+                "data": {},
+                "msg": "服务器错误",
+                "code": 5999,
+                "success": false
+            })
+        }
+    }
     async getOpenIdInJoinIdList(req, res, next) {
         console.log(req.body)
         try{

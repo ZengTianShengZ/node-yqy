@@ -47,14 +47,23 @@ dynamicSchema.statics.findForId = async function (_id) {
  * @param openId
  * @returns {Promise.<string>}
  */
-dynamicSchema.statics.findForOpenId = async function (openId) {
-    let dynamic = ''
-    if (openId) {
-        dynamic = await this.findById({openId: openId})
-    } else {
-        dynamic = await this.findOne()
+dynamicSchema.statics.findForOpenId = async function (obj_condition) {
+    let {pageNum, pageSize, openId} = obj_condition
+    pageNum = parseInt(pageNum)
+    pageSize = parseInt(pageSize)
+    const totalCount = await this.find({openId: openId}).count()
+    const totalPageNum = Math.ceil(totalCount / pageSize)
+    let list = await this.find({openId: openId})
+        .sort({createdAt: -1})  // 默认逆向排序，取最新值
+        .skip(pageNum * pageSize)
+        .limit(pageSize)
+    return {
+        list,
+        pageNum,
+        pageSize,
+        totalCount,
+        totalPageNum
     }
-    return dynamic
 }
 
 dynamicSchema.statics.findOpenIdInJoinIdList = async function (obj_condition) {

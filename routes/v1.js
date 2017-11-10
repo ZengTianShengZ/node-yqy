@@ -18,6 +18,9 @@ router.post('/joinYqy', Dynamic.joinYqy)
 
 router.post('/commont', Comment.commont)
 
+router.post('/getUserJoinList', Dynamic.getOpenIdInJoinIdList)
+
+router.post('/getUserDynamicList', Dynamic.findForOpenId)
 
 
 export default router

@@ -16,8 +16,6 @@ router.post('/login', UserInfo.login)
 
 router.post('/getDetailDynamic', Dynamic.getDetailOneDynamic)
 
-router.post('/getJoinList', Dynamic.getOpenIdInJoinIdList)
-
 router.post('/getConditionDynamic', Dynamic.getConditionDynamic)
 
 router.post('/getConditionComment', Comment.getConditionComment)
