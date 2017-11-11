@@ -27,20 +27,38 @@ const earthRadius = 6378 // km
 function getDistance( km ){
     return km / earthRadius
 }
-
+function listAddTime(list) {
+    let arr = []
+    list.forEach((item, index) => {
+        let {_id,openId,nickName,avatarUrl,location,address,description,imgList,joinIdList,createdAt} = item
+        const time = utils.timeFormat(createdAt)
+        let obj = {
+            _id,openId,nickName,avatarUrl,location,address,description,imgList,joinIdList,createdAt,
+            time
+        }
+        arr.push(obj)
+    })
+    return arr
+}
 /**
  * 通过id查找
  * @param _id
  * @returns {Promise.<string>}
  */
-dynamicSchema.statics.findForId = async function (_id) {
-    let dynamic = ''
-    if (_id) {
-        dynamic = await this.findById({_id: _id})
+dynamicSchema.statics.findForId = async function (id) {
+    let dynamic = {}
+    if (id) {
+        dynamic = await this.findById({_id: id})
     } else {
         dynamic = await this.findOne()
     }
-    return dynamic
+    let {_id,openId,nickName,avatarUrl,location,address,description,imgList,joinIdList,createdAt} = dynamic
+    const time = utils.timeFormat(createdAt)
+    let obj = {
+        _id,openId,nickName,avatarUrl,location,address,description,imgList,joinIdList,createdAt,
+        time
+    }
+    return obj
 }
 /**
  * 通过 openId 查找
@@ -58,7 +76,7 @@ dynamicSchema.statics.findForOpenId = async function (obj_condition) {
         .skip(pageNum * pageSize)
         .limit(pageSize)
     return {
-        list,
+        list: listAddTime(list),
         pageNum,
         pageSize,
         totalCount,
@@ -77,7 +95,7 @@ dynamicSchema.statics.findOpenIdInJoinIdList = async function (obj_condition) {
         .skip(pageNum * pageSize)
         .limit(pageSize)
     return {
-        dynamicList,
+        list: listAddTime(dynamicList),
         pageNum,
         pageSize,
         totalCount,
@@ -114,18 +132,8 @@ dynamicSchema.statics.findCondition = async function (obj_condition) {
         .sort({createdAt: -1})  // 默认逆向排序，取最新值
         .skip(pageNum * pageSize)
         .limit(pageSize)
-    let list = []
-    dynamicList.forEach((item, index) => {
-        let {_id,openId,nickName,avatarUrl,location,address,description,imgList,joinIdList,createdAt} = item
-        const time = utils.timeFormat(createdAt)
-        let obj = {
-            _id,openId,nickName,avatarUrl,location,address,description,imgList,joinIdList,createdAt,
-            time
-        }
-        list.push(obj)
-    })
     return {
-        list,
+        list : listAddTime(dynamicList),
         pageNum,
         pageSize,
         totalCount,
