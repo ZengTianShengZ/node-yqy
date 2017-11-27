@@ -15,9 +15,7 @@ class Commont extends BaseComponent {
         try {
             const comment = await CommentModel.createComment(req.body);
             res.send({
-                "data": {
-                    comment
-                },
+                "data": comment,
                 "msg": "",
                 "code": 0,
                 "success": true
