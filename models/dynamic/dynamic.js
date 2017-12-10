@@ -140,6 +140,25 @@ dynamicSchema.statics.findCondition = async function (obj_condition) {
         totalPageNum
     }
 }
+dynamicSchema.statics.deleteUserDynamic = async function (bodyData) {
+    let {openId, id} = bodyData
+    pageNum = parseInt(pageNum)
+    pageSize = parseInt(pageSize)
+    const obj_location = { location: { $nearSphere:location, $maxDistance: getDistance( 16 ) } }
+    const totalCount = await this.find(obj_location).count()
+    const totalPageNum = Math.ceil(totalCount / pageSize)
+    let dynamicList = await this.find(obj_location)
+        .sort({createdAt: -1})  // 默认逆向排序，取最新值
+        .skip(pageNum * pageSize)
+        .limit(pageSize)
+    return {
+        list : listAddTime(dynamicList),
+        pageNum,
+        pageSize,
+        totalCount,
+        totalPageNum
+    }
+}
 /**
  * 加入 dynamic yqy
  * @param joinInfo

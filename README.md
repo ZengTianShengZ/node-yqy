@@ -8,6 +8,6 @@ pm2 flush
 
 pm2 stop webhookServer
 启动 mongodb 服务
-./bin/mongod -f conf/mongod.conf
+~/zssSomeApp/mongodb/bin/mongod -f conf/mongod.conf
 
-php natapp.php --authtoken=1bc681b31a23b8c0
+php natapp.php --authtoken=959183f836dd1c81

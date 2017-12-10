@@ -22,5 +22,7 @@ router.post('/getUserJoinList', Dynamic.getOpenIdInJoinIdList)
 
 router.post('/getUserDynamicList', Dynamic.findForOpenId)
 
+router.post('/deleteUserDynamic', Dynamic.deleteUserDynamic)
+
 
 export default router

@@ -159,6 +159,20 @@ class PostDynamic extends BaseComponent {
         }
     }
 
+    async deleteUserDynamic (req, res, next) {
+        console.log(req.body)
+        try{
+            res.send({
+                "data": {},
+                "msg": "",
+                "code": 0,
+                "success": true
+            })
+        } catch (err){
+
+        }
+    }
+
     async joinYqy(req, res, next) {
         console.log(req.body)
         try{
