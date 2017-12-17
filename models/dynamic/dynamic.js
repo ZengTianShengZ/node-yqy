@@ -6,6 +6,8 @@
 import mongoose from 'mongoose'
 import * as utils from '../../utils'
 
+const DYNAMIC_SHOW = 1
+const DYNAMIC_HIDE = 0
 const Schema = mongoose.Schema
 
 const dynamicSchema = new Schema({
@@ -16,6 +18,7 @@ const dynamicSchema = new Schema({
     address: String,
     description: String,
     imgList: [],
+    show: { type: [ Number ], default: DYNAMIC_SHOW}, // 默认1，假删除时 0
     joinIdList:[]
 }, {timestamps: true})
 //﻿创建索引 openId， 1 在这里代表正向排序， -1 就逆向
@@ -72,6 +75,7 @@ dynamicSchema.statics.findForOpenId = async function (obj_condition) {
     const totalCount = await this.find({openId: openId}).count()
     const totalPageNum = Math.ceil(totalCount / pageSize)
     let list = await this.find({openId: openId})
+        .where('show').equals(1)
         .sort({createdAt: -1})  // 默认逆向排序，取最新值
         .skip(pageNum * pageSize)
         .limit(pageSize)
@@ -129,6 +133,7 @@ dynamicSchema.statics.findCondition = async function (obj_condition) {
     const totalCount = await this.find(obj_location).count()
     const totalPageNum = Math.ceil(totalCount / pageSize)
     let dynamicList = await this.find(obj_location)
+        .where('show').equals(1)
         .sort({createdAt: -1})  // 默认逆向排序，取最新值
         .skip(pageNum * pageSize)
         .limit(pageSize)
@@ -142,22 +147,16 @@ dynamicSchema.statics.findCondition = async function (obj_condition) {
 }
 dynamicSchema.statics.deleteUserDynamic = async function (bodyData) {
     let {openId, id} = bodyData
-    pageNum = parseInt(pageNum)
-    pageSize = parseInt(pageSize)
-    const obj_location = { location: { $nearSphere:location, $maxDistance: getDistance( 16 ) } }
-    const totalCount = await this.find(obj_location).count()
-    const totalPageNum = Math.ceil(totalCount / pageSize)
-    let dynamicList = await this.find(obj_location)
-        .sort({createdAt: -1})  // 默认逆向排序，取最新值
-        .skip(pageNum * pageSize)
-        .limit(pageSize)
-    return {
-        list : listAddTime(dynamicList),
-        pageNum,
-        pageSize,
-        totalCount,
-        totalPageNum
+    const dynamic = await this.findById(id)
+    //person.name = 'MDragon';
+    //  person.save(function(err){});
+    if (dynamic.openId === openId) {
+      dynamic.show = DYNAMIC_HIDE
+    } else {
+      return false
     }
+    const dynamicSave =  await dynamic.save()
+    return true
 }
 /**
  * 加入 dynamic yqy

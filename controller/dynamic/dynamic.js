@@ -161,12 +161,13 @@ class PostDynamic extends BaseComponent {
 
     async deleteUserDynamic (req, res, next) {
         console.log(req.body)
+        let flag = await DynamicModel.deleteUserDynamic(req.body);
         try{
             res.send({
-                "data": {},
+                data: {},
                 "msg": "",
                 "code": 0,
-                "success": true
+                "success": flag
             })
         } catch (err){
 
