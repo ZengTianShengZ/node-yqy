@@ -4,18 +4,13 @@
  * @update: 2017/10/24
  */
 
-// import express from 'express';
 import Router from 'koa-router';
-
 import Dynamic from '../controller/dynamic/dynamic'
 import Comment from '../controller/comment/comment'
 
-// const router = express.Router();
 const router = new Router();
 
 router.post('/postDynamic', Dynamic.postDynamic)
-
-// router.post('/uploadImg', Dynamic.uploadImg)
 
 router.post('/joinYqy', Dynamic.joinYqy)
 

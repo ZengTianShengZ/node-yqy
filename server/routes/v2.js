@@ -4,15 +4,12 @@
  * @update: 2017/10/24
  */
 
-// import express from 'express';
 import Router from 'koa-router';
-
 import utils from '../controller/utils/index'
 import UserInfo from '../controller/userInfo/userInfo'
 import Dynamic from '../controller/dynamic/dynamic'
 import Comment from '../controller/comment/comment'
 
-// const router = express.Router();
 const router = new Router();
 
 router.post('/login', UserInfo.login)

@@ -11,13 +11,3 @@ router.use('/v1', v1.routes(), v1.allowedMethods());
 router.use('/v2', v2.routes(), v2.allowedMethods());
 
 export default router;
-
-//
-// export default app => {
-//     app.get('/tt', function (req, res, next) {
-//         res.send('mmmmmxxxxxxxxxmmmmmmmm')
-//     });
-//
-//     app.use('/v1',UserInfo.checkLogin, v1);
-//     app.use('/v2', v2);
-// }

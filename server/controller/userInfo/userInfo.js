@@ -5,6 +5,7 @@
  */
 import BaseComponent from '../../prototype/baseComponent'
 import UserInfoModel from '../../models/userInfo/userInfo'
+import jwt from 'jsonwebtoken';
 import config from '../../config'
 
 class UserInfo extends BaseComponent {
@@ -55,7 +56,7 @@ class UserInfo extends BaseComponent {
             js_code: code,
             grant_type: 'authorization_code'
         })
-        const  openId = responseJson.openid
+        const openId = responseJson.openid
         if (!openId) {
             ctx.body = {
                 "data": {},
@@ -79,15 +80,35 @@ class UserInfo extends BaseComponent {
                     country,
                 });
                 const userinfo = await createUser.save();
+                const token = jwt.sign({openId: userinfo.openId}, config.jwtSecret, {expiresIn: '30d'})  //token签名 有效期为30天
+                const {nickName, avatarUrl, gender, province, city, country } = userinfo
                 ctx.body = {
-                    "data": userinfo,
+                    "data": {
+                        token,
+                        nickName,
+                        avatarUrl,
+                        gender,
+                        province,
+                        city,
+                        country,
+                    },
                     "msg": "",
                     "code": 0,
                     "success": true
                 }
             } else {
+                const token = jwt.sign({openId: user.openId}, config.jwtSecret, {expiresIn: '30d'})  //token签名 有效期为30天
+                const {nickName, avatarUrl, gender, province, city, country } = user
                 ctx.body = {
-                    "data": user,
+                    "data": {
+                        token,
+                        nickName,
+                        avatarUrl,
+                        gender,
+                        province,
+                        city,
+                        country,
+                    },
                     "msg": "",
                     "code": 0,
                     "success": true
