@@ -12,42 +12,41 @@ class UserInfo extends BaseComponent {
         super()
         this.login = this.login.bind(this)
     }
-    async checkLogin(req, res, next) {
-        const {openId} = req.body
+    async checkLogin(ctx) {
+        const {openId} = ctx.request.body
         if (!openId) {
-            res.send({
+            ctx.body = {
                 "data": {},
                 "msg": "openId 不存在",
                 "code": 4444,
                 "success": false
-            })
+            }
             return
         } else {
             const user = await UserInfoModel.findOpenId(openId);
             if (user) {
                 next()
             } else {
-                res.send({
+                ctx.body = {
                     "data": {},
                     "msg": "用户不存在",
                     "code": 4999,
                     "success": false
-                })
+                }
             }
         }
     }
-    async login(req, res, next) {
-        const {code, nickName, avatarUrl, gender, province, city, country} = req.body
+    async login(ctx) {
+        const {code, nickName, avatarUrl, gender, province, city, country} = ctx.request.body
         console.log('....code....')
         console.log(code)
         if (!code) {
-            res.send({
-                "data": {
-                },
+            ctx.body = {
+                "data": {},
                 "msg": "没有 code 参数",
                 "code": '1',
                 "success": false
-            })
+            }
             return
         }
         let responseJson = await this.fetch('https://api.weixin.qq.com/sns/jscode2session',{
@@ -56,17 +55,14 @@ class UserInfo extends BaseComponent {
             js_code: code,
             grant_type: 'authorization_code'
         })
-        console.log('....responseJson....')
-        console.log(responseJson)
         const  openId = responseJson.openid
         if (!openId) {
-            res.send({
-                "data": {
-                },
+            ctx.body = {
+                "data": {},
                 "msg": "服务端出错",
                 "code": '5555',
                 "success": false
-            })
+            }
             return
         }
         try {
@@ -83,27 +79,27 @@ class UserInfo extends BaseComponent {
                     country,
                 });
                 const userinfo = await createUser.save();
-                res.send({
+                ctx.body = {
                     "data": userinfo,
                     "msg": "",
                     "code": 0,
                     "success": true
-                })
+                }
             } else {
-                res.send({
+                ctx.body = {
                     "data": user,
                     "msg": "",
                     "code": 0,
                     "success": true
-                })
+                }
             }
         } catch (err) {
-            res.send({
+            ctx.body = {
                 "data": {},
                 "msg": "服务器错误",
                 "code": 5999,
                 "success": false
-            })
+            }
         }
     }
 }

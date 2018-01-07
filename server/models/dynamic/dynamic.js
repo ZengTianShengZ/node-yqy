@@ -4,7 +4,7 @@
  * @update: 2017/10/26
  */
 import mongoose from 'mongoose'
-import * as utils from '../../utils'
+import * as utils from '../../utils/index'
 
 const DYNAMIC_SHOW = 1
 const DYNAMIC_HIDE = 0

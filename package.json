@@ -39,6 +39,7 @@
     "express": "^4.15.2",
     "express-session": "^1.15.2",
     "express-winston": "^2.3.0",
+    "kcors": "^2.2.1",
     "koa": "^2.4.1",
     "koa-bodyparser": "^4.2.0",
     "koa-jwt": "^3.3.0",

@@ -10,42 +10,40 @@ class Commont extends BaseComponent {
     constructor() {
         super()
     }
-    async commont(req, res, next) {
-        console.log(req.body)
+    async commont(ctx) {
         try {
-            const comment = await CommentModel.createComment(req.body);
-            res.send({
+            const comment = await CommentModel.createComment(ctx.request.body);
+            ctx.body = {
                 "data": comment,
                 "msg": "",
                 "code": 0,
                 "success": true
-            })
+            }
         } catch (err) {
-            res.send({
+            ctx.body = {
                 "data": {},
                 "msg": "服务器错误",
                 "code": 5999,
                 "success": false
-            })
+            }
         }
     }
-    async getConditionComment (req, res, next) {
-        console.log(req.body)
+    async getConditionComment (ctx) {
         try {
-            const data = await CommentModel.findCondition(req.body);
-            res.send({
+            const data = await CommentModel.findCondition(ctx.request.body);
+            ctx.body = {
                 data,
                 "msg": "",
                 "code": 0,
                 "success": true
-            })
+            }
         } catch (err) {
-            res.send({
+            ctx.body = {
                 "data": {},
                 "msg": "服务器错误",
                 "code": 5999,
                 "success": false
-            })
+            }
         }
     }
 }

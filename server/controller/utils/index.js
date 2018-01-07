@@ -10,8 +10,7 @@ class Utils {
     constructor() {
 
     }
-    async getQnUptoken(req, res, next) {
-        console.log('......getQnUptoken......')
+    async getQnUptoken(ctx) {
         const accessKey = config.qnaccessKey;
         const secretKey = config.qnsecretKey;
         const mac = new qiniu.auth.digest.Mac(accessKey, secretKey);
@@ -20,9 +19,9 @@ class Utils {
         };
         const putPolicy = new qiniu.rs.PutPolicy(options);
         const uploadToken = putPolicy.uploadToken(mac);
-        res.send({
+        ctx.body = {
             uptoken: uploadToken
-        })
+        }
     }
 }
 

@@ -4,7 +4,7 @@
  * @update: 2017/10/23
  */
 import mongoose from 'mongoose'
-import * as utils from '../../utils'
+import * as utils from '../../utils/index'
 
 const Schema = mongoose.Schema
 

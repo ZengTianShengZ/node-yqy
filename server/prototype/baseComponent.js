@@ -45,29 +45,29 @@ export default class BaseComponent {
 		}
 		return responseJson
 	}
-	isLogin(req, res, next) {
-		if (!req.body.openId) {
-            res.send({
+	isLogin(ctx) {
+		if (!ctx.request.body.openId) {
+            ctx.body = {
                 "data": {},
                 "msg": "openId 不存在",
                 "code": '4444',
                 "success": false
-            })
+			}
             return false
 		} else {
 			return true
 		}
     }
-    tryCatch(res, tryFun, catchFun) {
+    tryCatch(ctx, tryFun, catchFun) {
 		try {
             tryFun()
 		} catch (err) {
-            res.send({
+            ctx.body = {
                 "data": {},
                 "msg": "服务器错误",
                 "code": '5999',
                 "success": false
-            })
+			}
 		}
 	}
 }
