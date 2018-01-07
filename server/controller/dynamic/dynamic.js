@@ -15,7 +15,7 @@ class PostDynamic extends BaseComponent {
         this.getDetailOneDynamic = this.getDetailOneDynamic.bind(this)
     }
     /**
-     * 发布说说
+     * 发布动态
      * @param req
      * @param res
      * @param next
@@ -24,45 +24,27 @@ class PostDynamic extends BaseComponent {
     async postDynamic(ctx) {
         const bodyData = ctx.request.body
         const {openId, imgList, location} = bodyData
-        if (this.isLogin(ctx)) {
-            if (!openId) {
-                ctx.body = {
-                    "data": {},
-                    "msg": "openId 不存在,请登录",
-                    "code": 4444,
-                    "success": false
-                }
-                return
+        try {
+            const user = await UserInfoModel.findOpenId(openId);
+            // 字符串转数组
+            bodyData.imgList = imgList.split(",");
+            bodyData.location = location.split(",");
+            bodyData.nickName = user.nickName;
+            bodyData.avatarUrl = user.avatarUrl;
+            const createDynamic = new DynamicModel(bodyData);
+            await createDynamic.save();
+            ctx.body = {
+                "data": {},
+                "msg": "",
+                "code": 0,
+                "success": true
             }
-            try {
-                const user = await UserInfoModel.findOpenId(openId);
-                if (user) {
-                    // 字符串转数组
-                    bodyData.imgList = imgList.split(",");
-                    bodyData.location = location.split(",");
-                    const createDynamic = new DynamicModel(bodyData);
-                    const dynamic = await createDynamic.save();
-                    ctx.body = {
-                        "data": {},
-                        "msg": "",
-                        "code": 0,
-                        "success": true
-                    }
-                } else {
-                    ctx.body = {
-                        "data": {},
-                        "msg": "openId 不存在",
-                        "code": 4444,
-                        "success": false
-                    }
-                }
-            } catch (err) {
-                ctx.body = {
-                    "data": {},
-                    "msg": "服务器错误",
-                    "code": 5999,
-                    "success": false
-                }
+        } catch (err) {
+            ctx.body = {
+                "data": {},
+                "msg": "服务器错误",
+                "code": 5999,
+                "success": false
             }
         }
     }

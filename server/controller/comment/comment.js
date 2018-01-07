@@ -5,16 +5,26 @@
  */
 import BaseComponent from '../../prototype/baseComponent'
 import CommentModel from '../../models/comment/comment'
+import UserInfoModel from '../../models/userInfo/userInfo'
 
 class Commont extends BaseComponent {
     constructor() {
         super()
     }
     async commont(ctx) {
+        const {openId, dynamicId, comment, replyTo} = ctx.request.body
         try {
-            const comment = await CommentModel.createComment(ctx.request.body);
+            const user = await UserInfoModel.findOpenId(openId);
+            const commentData = {
+                nickName: user.nickName,
+                avatarUrl: user.avatarUrl,
+                dynamicId,
+                comment,
+                replyTo
+            }
+            const createComment = await CommentModel.createComment(commentData);
             ctx.body = {
-                "data": comment,
+                "data": createComment,
                 "msg": "",
                 "code": 0,
                 "success": true
