@@ -16,8 +16,8 @@ const userInfoSchema = new Schema({
     province: String,
     city: String,
     country: String,
-
 }, {timestamps: true})
+
 //﻿创建索引 openId， 1 在这里代表正向排序， -1 就逆向
 userInfoSchema.index({openId: 1})
 
