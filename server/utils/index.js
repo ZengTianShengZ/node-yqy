@@ -9,8 +9,31 @@
  * @param time
  * @returns {string}
  */
-export function timeFormat(time) {
-    let t = new Date(time)
+Array.prototype.unique = function(key) {
+    var arr = this;
+    var n = [arr[0]];
+    for (var i = 1; i < arr.length; i++) {
+        if (key === undefined) {
+            if (n.indexOf(arr[i]) == -1) n.push(arr[i]);
+        } else {
+            inner: {
+                var has = false;
+                for (var j = 0; j < n.length; j++) {
+                    if (arr[i][key] == n[j][key]) {
+                        has = true;
+                        break inner;
+                    }
+                }
+            }
+            if (!has) {
+                n.push(arr[i]);
+            }
+        }
+    }
+    return n;
+}
+
+export function timeFormat(t) {
     let now = new Date()
     if ((now.getMonth() === t.getMonth()) && (now.getDate() === t.getDate())) {
         return `今天 ${t.getHours()}：${t.getMinutes()}`
@@ -71,4 +94,40 @@ export function extend() {
         }
     }
     return target;
+}
+
+/**
+ * 去重，收尾截取官方动态，避免重复
+ * @param arr
+ * @param dynamicList
+ * @param pageNum
+ * @param pageSize
+ * @returns {string}
+ */
+export function sortDynamic(arr, dynamicList, pageNum, pageSize) {
+    const len = dynamicList.length
+    let arrData = arr.unique('timestamp')
+    if (len > 0) {
+        const firtId = dynamicList[0]._id
+        const lastId = dynamicList[len-1]._id
+        let firstIndex = 0
+        let lastIndex = arrData.length
+        arrData.forEach((item, index) => {
+            if (item._id === firtId) {
+                firstIndex = index
+            }
+            if (item._id === lastId) {
+                lastIndex = index
+            }
+        })
+        if (pageNum !== 0) {
+            arrData = arrData.slice(firstIndex)
+        }
+        if (pageSize > lastIndex) {
+            arrData = arrData.slice(0, lastIndex)
+        }
+        return arrData
+    } else {
+        return arrData
+    }
 }

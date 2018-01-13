@@ -8,6 +8,7 @@ import * as utils from '../../utils/index'
 
 const DYNAMIC_SHOW = 1
 const DYNAMIC_HIDE = 0
+const OFFICIAL_OPENID = 'opRED0WUH13tzQnc3R59bZCyg9YU' // 官方账号 【曾田生】
 const Schema = mongoose.Schema
 
 const dynamicSchema = new Schema({
@@ -33,11 +34,13 @@ function getDistance( km ){
 function listAddTime(list) {
     let arr = []
     list.forEach((item, index) => {
-        let {_id,openId,nickName,avatarUrl,location,address,description,imgList,joinIdList,createdAt} = item
-        const time = utils.timeFormat(createdAt)
-        let obj = {
+        const {_id,openId,nickName,avatarUrl,location,address,description,imgList,joinIdList,createdAt} = item
+        const createdTime = new Date(createdAt)
+        const timestamp = createdTime.getTime()
+        const time = utils.timeFormat(createdTime)
+        const obj = {
             _id,openId,nickName,avatarUrl,location,address,description,imgList,joinIdList,createdAt,
-            time
+            time, timestamp
         }
         arr.push(obj)
     })
@@ -132,13 +135,26 @@ dynamicSchema.statics.findCondition = async function (obj_condition) {
     const obj_location = { location: { $nearSphere:location, $maxDistance: getDistance( 16 ) } }
     const totalCount = await this.find(obj_location).count()
     const totalPageNum = Math.ceil(totalCount / pageSize)
-    let dynamicList = await this.find(obj_location)
+    const officialList = await this.find({openId: OFFICIAL_OPENID})
+        .where('show').equals(1)
+        .sort({createdAt: -1})  // 默认逆向排序，取最新值
+        .limit(10) // 官方限制10条
+    const dynamicList = await this.find(obj_location)
         .where('show').equals(1)
         .sort({createdAt: -1})  // 默认逆向排序，取最新值
         .skip(pageNum * pageSize)
         .limit(pageSize)
+    // 合并官方动态
+    const arr = listAddTime([...dynamicList, ...officialList])
+    console.log('----arr----')
+    console.log(officialList)
+    console.log('----===============----')
+    console.log(dynamicList)
+
+    // 排序动态
+    const listData = utils.sortDynamic(arr, dynamicList, pageNum, pageSize)
     return {
-        list : listAddTime(dynamicList),
+        list : listData,
         pageNum,
         pageSize,
         totalCount,
