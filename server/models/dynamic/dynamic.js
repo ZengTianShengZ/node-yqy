@@ -19,7 +19,7 @@ const dynamicSchema = new Schema({
     address: String,
     description: String,
     imgList: [],
-    show: { type: [ Number ], default: DYNAMIC_SHOW}, // 默认1，假删除时 0
+    show: { type: Number, default: DYNAMIC_SHOW}, // 默认1，假删除时 0
     joinIdList:[]
 }, {timestamps: true})
 //﻿创建索引 openId， 1 在这里代表正向排序， -1 就逆向
@@ -146,11 +146,6 @@ dynamicSchema.statics.findCondition = async function (obj_condition) {
         .limit(pageSize)
     // 合并官方动态
     const arr = listAddTime([...dynamicList, ...officialList])
-    console.log('----arr----')
-    console.log(officialList)
-    console.log('----===============----')
-    console.log(dynamicList)
-
     // 排序动态
     const listData = utils.sortDynamic(arr, dynamicList, pageNum, pageSize)
     return {

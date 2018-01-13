@@ -39,8 +39,6 @@ class UserInfo extends BaseComponent {
     }
     async login(ctx) {
         const {code, nickName, avatarUrl, gender, province, city, country} = ctx.request.body
-        console.log('....code....')
-        console.log(code)
         if (!code) {
             ctx.body = {
                 "data": {},
@@ -81,16 +79,15 @@ class UserInfo extends BaseComponent {
                 });
                 const userinfo = await createUser.save();
                 const token = jwt.sign({openId: userinfo.openId}, config.jwtSecret, {expiresIn: '30d'})  //token签名 有效期为30天
-                const {nickName, avatarUrl, gender, province, city, country } = userinfo
                 ctx.body = {
                     "data": {
                         token,
-                        nickName,
-                        avatarUrl,
-                        gender,
-                        province,
-                        city,
-                        country,
+                        nickName: userinfo.nickName,
+                        avatarUrl: userinfo.avatarUrl,
+                        gender: userinfo.gender,
+                        province: userinfo.province,
+                        city: userinfo.city,
+                        country: userinfo.country,
                     },
                     "msg": "",
                     "code": 0,
