@@ -1,7 +1,7 @@
 'use strict';
 
 import mongoose from 'mongoose';
-import config from '../config';
+import config from '../config.js';
 mongoose.Promise = Promise
 mongoose.connect(config.url, {useMongoClient:true});
 mongoose.Promise = global.Promise;
