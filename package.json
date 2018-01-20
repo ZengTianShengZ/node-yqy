@@ -4,9 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "cross-env NODE_ENV=development supervisor --harmony index.js",
-    "pm2": "pm2 start index.js --watch --name= test2"
+    "pm2": "pm2 start index.js --watch --name= test2",
+    "test": "git pull && cnpm install && pm2 startOrRestart ecosystem.config.js --env testing",
+    "prod": "git pull && cnpm install && pm2 startOrRestart ecosystem.config.js --env production"
   },
   "repository": {
     "type": "git",
