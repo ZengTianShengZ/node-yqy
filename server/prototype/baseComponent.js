@@ -70,4 +70,21 @@ export default class BaseComponent {
 			}
 		}
 	}
+	to(ctx, promise) {
+		console.log('====to====')
+        return promise
+            .then(data => {
+                return data;
+            })
+            .catch(err => {
+            	console.log('====err====')
+            	console.log(err)
+                ctx.body = {
+                    "data": {},
+                    "msg": "服务器错误",
+                    "code": 5999,
+                    "success": false
+                }
+			});
+    }
 }

@@ -42,8 +42,8 @@ class UserInfo extends BaseComponent {
         if (!code) {
             ctx.body = {
                 "data": {},
-                "msg": "没有 code 参数",
-                "code": '1',
+                "msg": "参数错误",
+                "code": 4999,
                 "success": false
             }
             return
@@ -59,7 +59,7 @@ class UserInfo extends BaseComponent {
             ctx.body = {
                 "data": {},
                 "msg": "服务端出错",
-                "code": '5555',
+                "code": 5999,
                 "success": false
             }
             return

@@ -6,7 +6,6 @@
 import BaseComponent from '../../prototype/baseComponent'
 import UserInfoModel from '../../models/userInfo/userInfo'
 import DynamicModel from '../../models/dynamic/dynamic'
-import * as utils from '../../utils/index'
 
 class PostDynamic extends BaseComponent {
     constructor() {
@@ -56,7 +55,7 @@ class PostDynamic extends BaseComponent {
                 data,
                 "msg": "",
                 "code": 0,
-                "success": false
+                "success": true
             }
         } catch (err) {
             ctx.body = {
@@ -75,7 +74,7 @@ class PostDynamic extends BaseComponent {
                 data,
                 "msg": "",
                 "code": 0,
-                "success": false
+                "success": true
             }
         } catch (err) {
             ctx.body = {
@@ -94,7 +93,7 @@ class PostDynamic extends BaseComponent {
                 data,
                 "msg": "",
                 "code": 0,
-                "success": false
+                "success": true
             }
         } catch (err) {
             ctx.body = {
@@ -118,7 +117,7 @@ class PostDynamic extends BaseComponent {
                 data,
                 "msg": "",
                 "code": 0,
-                "success": false
+                "success": true
             }
         } catch (err) {
             console.log(err)
@@ -141,7 +140,13 @@ class PostDynamic extends BaseComponent {
                 "success": flag
             }
         } catch (err){
-
+            console.log(err)
+            ctx.body = {
+                "data": {},
+                "msg": "服务器错误",
+                "code": 5999,
+                "success": false
+            }
         }
     }
 

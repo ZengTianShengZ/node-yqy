@@ -129,3 +129,29 @@ export function sortDynamic(arr, dynamicList, pageNum, pageSize) {
         return arrData
     }
 }
+
+export function to(ctx, promise) {
+    return promise
+        .then(data => {
+            if (data) {
+                return data;
+            } else {
+                ctx.body = {
+                    "data": {},
+                    "msg": "服务器错误",
+                    "code": 5999,
+                    "success": false
+                }
+            }
+        })
+        .catch(err => {
+            console.log('====err====')
+            console.log(err)
+            ctx.body = {
+                "data": {},
+                "msg": "服务器错误",
+                "code": 5999,
+                "success": false
+            }
+        });
+}
