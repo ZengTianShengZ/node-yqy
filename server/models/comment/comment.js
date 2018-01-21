@@ -12,7 +12,7 @@ const commentSchema = new Schema({
     openId: String,
     dynamicId: String,
     nickName: String,
-    avatarUrl: {type: String, default: 'http://oyn5he3v2.bkt.clouddn.com/defaultAvatar.png'},
+    avatarUrl: {type: String, default: 'http://oyn5he3v2.bkt.clouddn.com/none_aux.png'},
     comment: String,
     replyTo: {
         nickName: String,
